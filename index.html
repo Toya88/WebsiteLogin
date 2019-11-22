@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website Login Form</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    
+</head>
+<body>
+    <script src="js/app.js"></script>
+    <div class="login">
+        <form onsubmit="getInfo()" class="register-form" action="" id="form">
+            <!-- <label for="username" >User Name (4 to 8 characters):</label> -->
+            <input type="text" id="username" placeholder="username" name="username" required minlength="4" maxlength="8" >
+
+            <!-- <label for="pass">PassWord</label> -->
+            <input type="password" id="password" placeholder="password" name="password" required minlength="8" maxlength="20" >
+
+            <!-- <input type="text" id="email" placeholder="email" name="email" required minlength="4" > -->
+            
+            <br><input class="button" type="submit"  >Create
+            
+
+            <p id="message"></p>
+            <!-- <p class="message">Already Registered <a href="#">Login</a></p> -->
+
+
+        </form>
+
+        <form class="login-form" action="">
+            <input type="text" id="username" placeholder="username" name="username" required minlength="4" maxlength="8" >
+
+            <!-- <label for="pass">PassWord</label> -->
+            <input type="password" id="pass" placeholder="password" name="password" required minlength="8" maxlength="20" >
+
+            <br><button>Login</button>
+            <p class="message">Not Registered? <a href="#">Register</a></p>
+        </form>
+
+    </div>
+    
+</body>
+</html>
